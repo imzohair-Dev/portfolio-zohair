@@ -1,7 +1,6 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import { Poppins } from "next/font/google";
-import { ThemeProvider } from "@/components/ThemeProvider";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { Hero } from "@/components/sections/Hero";
@@ -58,25 +57,18 @@ const Home: NextPage = () => {
       </Head>
 
       <div className={`min-h-full flex flex-col bg-background text-foreground antialiased transition-colors duration-300 ${poppins.variable} font-sans`}>
-        <ThemeProvider
-          attribute="class"
-          defaultTheme="system"
-          enableSystem
-          disableTransitionOnChange
-        >
-          <Navbar />
-          <main className="flex-1">
-            <Hero />
-            <About />
-            <Skills />
-            <Experience />
-            <Projects />
-            <ProfessionalProjects />
-            <Education />
-            <Contact />
-          </main>
-          <Footer />
-        </ThemeProvider>
+        <Navbar />
+        <main className="flex-1">
+          <Hero />
+          <About />
+          <Skills />
+          <Experience />
+          <Projects />
+          <ProfessionalProjects />
+          <Education />
+          <Contact />
+        </main>
+        <Footer />
       </div>
     </>
   );
