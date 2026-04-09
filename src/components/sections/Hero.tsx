@@ -66,7 +66,7 @@ export function Hero() {
               <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
             </a>
             <a
-              href="/Muhammad-Zohair-CV.pdf"
+              href="/portfolio-zohair/Muhammad-Zohair-CV.pdf"
               download
               className="inline-flex items-center justify-center px-8 py-3.5 text-base font-medium text-foreground bg-card border border-border rounded-lg hover:bg-muted hover:text-primary transition-all w-full sm:w-auto group shadow-sm"
             >
