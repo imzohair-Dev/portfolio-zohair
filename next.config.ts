@@ -1,8 +1,8 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  basePath: '/portfolio-zohair',
   output: 'export',
+  basePath: '/portfolio-zohair', 
   images: {
     unoptimized: true,
   },
