@@ -1,13 +1,10 @@
 /** @type {import('next').NextConfig} */
-const isProd = process.env.NODE_ENV === 'production';
-
 const nextConfig = {
   output: 'export',
-  trailingSlash: true,
-  assetPrefix: isProd ? '/portfolio-zohair/' : '',
+  basePath: '/portfolio-zohair',
   images: {
     unoptimized: true,
   },
 };
 
-module.exports = nextConfig;
+export default nextConfig;
