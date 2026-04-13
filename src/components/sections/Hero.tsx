@@ -21,7 +21,7 @@ export function Hero() {
             transition={{ duration: 0.5 }}
           >
             <span className="inline-block py-1 px-3 rounded-full bg-primary/10 text-primary mb-6 text-sm font-medium">
-              Available for new opportunities
+              I am a QA service that saves your startup from bugs.
             </span>
           </motion.div>
 
